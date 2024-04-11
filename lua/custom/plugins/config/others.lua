@@ -9,7 +9,7 @@ local M = {}
 
 M.ultisnips = function()
   -- Disable snipmate plugins to avoid duplicate snippets
-  vim.g.UltiSnipsSnippedDirectories = { "UltiSnips" }
+  vim.g.UltiSnipsSnippetDirectories = { "UltiSnips" }
   vim.g.UltiSnipsEnableSnipMate = 0
   vim.g.UltiSnipsRemoveSelectModeMappings = 0
   vim.g.UltiSnipsExpandTrigger = '<Tab>'
